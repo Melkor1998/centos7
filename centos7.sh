@@ -26,5 +26,6 @@ set nu
 set tabstop=4' > ~/.vimrc
 sudo yum install net-tools -y
 sudo yum groupinstall "X Window system" "Xfce" -y
+mkdir ~/Documents ~/Downloads
 }
 setup || echo -e "\e[91;1;5mError\e[0m" && clear && echo -e "\e[92;1mEnjoy your work\nScript was made by Shota from ITVET group 67\nSetup will finnish in 5 seconds\e[0m" && sleep 5 && sudo systemctl isolate graphical.target && sudo systemctl set-default graphical.target
